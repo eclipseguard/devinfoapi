@@ -102,7 +102,7 @@ def ensure_jwt_token_sync(region):
         print(f"[JWT] Token missing or expired for {region}. Fetching...")
 
         endpoints = {
-            "IND": "https://jwt-system-ff.vercel.app/guest_to_jwt?uid=3828066210&password=C41B0098956AE7B79F752FCA873C747060C71D3C17FBE4794F5EB9BD71D4DA95",
+            "IND": "https://ff-jwt-gen-api.lovable.app/api/public/token?uid=3823846055&password=2AD77EBD81440409D845D7937D434C1F7D434FFEA390BA859DDE71090BE17725",
             "BR": "https://jwt-system-ff.vercel.app/guest_to_jwt?uid=4345418798&password=JOBAYAR_GK6VJ",
             "US": "https://jwt-system-ff.vercel.app/guest_to_jwt?uid=3787481313&password=JlOivPeosauV0l9SG6gwK39lH3x2kJkO",
             "SAC": "https://jwt-system-ff.vercel.app/guest_to_jwt?uid=4349229968&password=GARENA_KI_MKC_50WO1_BY_KALLU_CODEX_22WFM",
